@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { TodoCreate } from '@/types/todo';
+import { TodoCreate } from '../types/todo';
 
 interface TodoFormProps {
   onSubmit: (todo: TodoCreate) => void;
