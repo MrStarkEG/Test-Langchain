@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Todo, TodoCreate, TodoUpdate } from '@/types/todo';
-import { todoApi } from '@/services/api';
+import { Todo, TodoCreate, TodoUpdate } from '../types/todo';
+import { todoApi } from '../services/api';
 import TodoItem from './TodoItem';
 import TodoForm from './TodoForm';
 
