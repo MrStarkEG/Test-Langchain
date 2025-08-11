@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { Todo, TodoCreate, TodoUpdate } from '@/types/todo';
+import { Todo, TodoCreate, TodoUpdate } from '../types/todo';
 
 const API_BASE_URL = 'http://localhost:8000';
 
